@@ -22,6 +22,14 @@ void register_all_days(void) {
     register_fn(day2_p1), register_fn(day2_p2);
     register_fn(day3_p1), register_fn(day3_p2);
     register_fn(day4_p1), register_fn(day4_p2);
+    register_fn(day5_p1), register_fn(day5_p2);
+    register_fn(day6_p1), register_fn(day6_p2);
+    register_fn(day7_p1), register_fn(day7_p2);
+    register_fn(day8_p1), register_fn(day8_p2);
+    register_fn(day9_p1), register_fn(day9_p2);
+    register_fn(day10_p1), register_fn(day10_p2);
+    register_fn(day11_p1), register_fn(day11_p2);
+    register_fn(day12_p1), register_fn(day12_p2);
 }
 
 void run_day(int day) {

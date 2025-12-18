@@ -22,14 +22,18 @@ void register_all_days(void);
 
 
 // Forward decl. for all days and their parts.
-int day1_p1(void);
-int day1_p2(void);
-int day2_p1(void);
-int day2_p2(void);
-int day3_p1(void);
-int day3_p2(void);
-int day4_p1(void);
-int day4_p2(void);
+int day1_p1(void); int day1_p2(void);
+int day2_p1(void); int day2_p2(void);
+int day3_p1(void); int day3_p2(void);
+int day4_p1(void); int day4_p2(void);
+int day5_p1(void); int day5_p2(void);
+int day6_p1(void); int day6_p2(void);
+int day7_p1(void); int day7_p2(void);
+int day8_p1(void); int day8_p2(void);
+int day9_p1(void); int day9_p2(void);
+int day10_p1(void); int day10_p2(void);
+int day11_p1(void); int day11_p2(void);
+int day12_p1(void); int day12_p2(void);
 
 
 // Input file information.
@@ -38,6 +42,14 @@ static const char* day1_inp = "inputs/day1.in";
 static const char* day2_inp = "inputs/day2.in";
 static const char* day3_inp = "inputs/day3.in";
 static const char* day4_inp = "inputs/day4.in";
+static const char* day5_inp = "inputs/day5.in";
+static const char* day6_inp = "inputs/day6.in";
+static const char* day7_inp = "inputs/day7.in";
+static const char* day8_inp = "inputs/day8.in";
+static const char* day9_inp = "inputs/day9.in";
+static const char* day10_inp = "inputs/day10.in";
+static const char* day11_inp = "inputs/day11.in";
+static const char* day12_inp = "inputs/day12.in";
 
 // Day options for command line.
 static const char* day_options[12] = {

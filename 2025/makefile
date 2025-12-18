@@ -19,7 +19,15 @@ SRCS := \
 	days/day1.c \
 	days/day2.c \
 	days/day3.c \
-	days/day4.c
+	days/day4.c \
+	days/day5.c \
+	days/day6.c \
+	days/day7.c \
+	days/day8.c \
+	days/day9.c \
+	days/day10.c \
+	days/day11.c \
+	days/day12.c
 
 # Object files.
 OBJS := $(SRCS:.c=.o)

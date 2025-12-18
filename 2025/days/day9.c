@@ -1,7 +1,7 @@
 // -------------------------------------------------
-//	day4.c
+//	day9.c
 //
-//  Day 4 solution file.
+//  Day 9 solution file.
 //
 //  (c) Noah Gergel 2025
 // -------------------------------------------------
@@ -16,7 +16,7 @@
 #include "aoc.h"
 
 
-int day4_p1(void) {
+int day9_p1(void) {
     FILE *f = fopen(test_inp, "r");
 
     if (!f) {
@@ -24,14 +24,14 @@ int day4_p1(void) {
         return 1;
     }
 
-    printf("day4\n");
+    printf("day9\n");
 
     fclose(f);
     return 0;
 }
 
 
-int day4_p2(void) {
+int day9_p2(void) {
     FILE *f = fopen(test_inp, "r");
 
     if (!f) {
@@ -39,7 +39,7 @@ int day4_p2(void) {
         return 1;
     }
 
-    printf("day4\n");
+    printf("day9\n");
 
     fclose(f);
     return 0;
